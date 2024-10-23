@@ -17,9 +17,9 @@ function init() {
     addToCartButtons.forEach((button, index) => {
         button.addEventListener('click', () => {
             const products = [
-                { name: 'Sony a7iii', price: 94999 },
-                { name: 'Canon 700D', price: 30000 },
-                { name: 'Nikon Z50', price: 52500 },
+                { name: 'Predator Helios', price: 94999 },
+                { name: 'Predator Aethon 500', price: 10000 },
+                { name: 'Predator Aparat Z50', price: 10500 },
             ];
             addToCart(products[index]);
         });
